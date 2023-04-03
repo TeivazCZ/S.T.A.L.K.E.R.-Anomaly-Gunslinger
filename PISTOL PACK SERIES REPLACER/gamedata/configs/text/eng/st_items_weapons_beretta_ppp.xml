@@ -1,0 +1,13 @@
+<string_table>
+
+
+
+	<string id="st_wpn_beretta_px4">
+		<text>Beretta Px4 Storm</text>
+	</string>
+	<string id="st_wpn_beretta_px4_descr">
+		<text>The Px4 Storm is an advancement of the Beretta 8000, meant to be as a replacer of the 92FS for personal defense and law enforcement use. Its rotating barrel allows for better recoil control and continuous shots, the lightframe also helps with the weight. This particular model seems to come with tritium sights as well. From the looks of it, these weapons were "illegally" exported from Armenia and Romania, by mercenaries that used to be part of the police force from said countries.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 9x19 compatible suppressor</text>
+	</string>
+</string_table>

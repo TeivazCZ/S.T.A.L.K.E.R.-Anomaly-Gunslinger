@@ -1,0 +1,15 @@
+<string_table>
+
+	<string id="st_wpn_hs2000">
+		<text>HS2000</text>
+	</string>
+	<string id="st_wpn_hs2000_short">
+		<text>HS2000</text>
+	</string>
+	<string id="st_wpn_hs2000_descr">
+		<text>The HS2000 is a Croatian-made pistol, manufactured by HS Produkt. It has a polymer frame and fires based on a Striker, which is similar to the Glock pistols. Although despite being a HS2000, this is actually a HS-9 4.0 G2, which is a civilian version of the HS2000 itself out for the market. This is due to Black Market manufacturing, the internals are clearly HS2000 while the rest is simply marked as HS-9, it also comes with an ambidextrous setup. This pistol was being manufactured in 1995, until it got released in 1999. After 2001, the Police and Army of Croatia deecided to adopt it, becoming their national gun. In USA, it is known as the "Springfield XD".  \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] GemTech suppressor</text>
+	</string>
+
+</string_table>

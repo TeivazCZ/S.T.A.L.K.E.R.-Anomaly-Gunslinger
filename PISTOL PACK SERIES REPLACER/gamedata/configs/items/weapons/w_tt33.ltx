@@ -1,0 +1,271 @@
+;------------------------------------------------------------------------------------------------
+[wpn_tt33]:identity_immunities,weapon_probability,default_weapon_params,wpn_tt33_sounds
+        GroupControlSection         = spawn_group
+        discovery_dependency        =
+        $npc                        = on
+        $prefetch                   = 8
+        $spawn                      = "weapons\Desert Eagle"
+        scheduled                   = off
+        cform                       = skeleton
+        
+        class                       = WP_PM
+        slot                        = 1
+        animation_slot              = 1
+        ef_weapon_type              = 5
+        hand_dependence             = 1
+        single_handed               = 1
+        
+        default_to_ruck             = false
+        sprint_allowed              = true
+        
+        inv_grid_height             = 1
+        inv_grid_width              = 2
+        inv_grid_x                  = 59
+        inv_grid_y                  = 77
+        inv_name                    = st_wpn_tt33
+        inv_name_short              = st_wpn_tt33
+        description                 = wpn_tt33_descr
+        
+        kind                        = w_pistol
+        inv_weight                  = 0.854
+        cost                        = 9860
+        repair_type                 = pistol
+        
+        hud                         = wpn_tt33_hud
+        visual                      = dynamics\weapons\wpn_tt33\wpn_tt33.ogf
+        position                    = -0.021, -0.092, 0.0
+        orientation                 = 0, 0, 0
+        fire_point                  = 0.0, 0.133, 0.161
+        fire_point2                 = 0.0, 0.133, 0.161
+        ph_mass                     = 1
+        
+        flame_particles             = weapons\generic_weapon03
+        smoke_particles             = weapons\generic_shoot_00
+        
+		shell_point		 			= 0.0, 0.133, 0.047
+		shell_dir		 			= 0.0, 0.0, 0.4
+		shell_particles	 			= weapons\45acp
+
+        light_color                 = 0.6, 0.5, 0.3
+        light_range                 = 3.0
+        light_time                  = 0.2
+        light_var_color             = 0.05
+        light_var_range             = 0.5
+        
+        upgrades                    = up_gr_firstab_tt33, up_gr_seconab_tt33, up_gr_thirdab_tt33, up_gr_fourtab_tt33, up_gr_fifthab_tt33, up_gr_fifthcd_tt33
+        installed_upgrades          =
+        upgrade_scheme              = upgrade_scheme_pm
+        upgr_icon_x                 = 1300
+        upgr_icon_y                 = 600
+        upgr_icon_width             = 150
+        upgr_icon_height            = 100
+        
+        fire_modes                  = 1
+        ammo_class                  = ammo_7.62x25_p, ammo_7.62x25_p_bad, ammo_7.62x25_p_verybad, ammo_7.62x25_ps, ammo_7.62x25_ps_bad, ammo_7.62x25_ps_verybad
+        ammo_elapsed                = 8
+        ammo_mag_size               = 8
+        
+        scope_status                = 0
+        scope_zoom_factor           = 0
+        
+        silencer_status             = 0
+        silencer_light_color        = 0.6, 0.5, 0.3
+        silencer_light_range        = 0.01
+        silencer_light_time         = 0.2
+        silencer_light_var_color    = 0.05
+        silencer_light_var_range    = 0.5
+        silencer_smoke_particles    = weapons\generic_shoot_00
+        
+        grenade_launcher_status     = 0
+        
+        hit_impulse                 = 25
+        hit_power                   = 0.45, 0.45, 0.45, 0.45
+        hit_type                    = fire_wound
+        fire_distance               = 400
+        bullet_speed                = 420
+        rpm                         = 210
+        rpm_empty_click             = 120
+        
+        use_aim_bullet              = false
+        time_to_aim                 = 0.0 ;  1.0
+        zoom_dof                    = -1000, 1.0, 1000
+        zoom_enabled                = true
+        zoom_rotate_time            = 0.25
+        reload_dof                  = 0.0, 0.5, 5, 1.7
+control_inertion_factor = 1.0f
+        crosshair_inertion          = 3.3
+        fire_dispersion_base        = 0.6
+        fire_dispersion_condition_factor = 0.001
+        
+        misfire_probability         = 0.05
+        misfire_start_condition     = 0.7 ;  0.7
+        misfire_start_prob          = 0.007
+        misfire_end_condition       = 0.12
+        misfire_end_prob            = 0.11
+        
+        condition_queue_shot_dec    = 0.0018
+        condition_shot_dec          = 0.0018
+        
+        cam_return                  = 0
+        cam_relax_speed             = 6
+        cam_dispersion              = 2.0
+        cam_dispersion_frac         = 0.92
+        cam_dispersion_inc          = 0.0
+        cam_max_angle               = 50.0
+        cam_max_angle_horz          = 50.0
+        cam_step_angle_horz         = 1.2
+		zoom_cam_dispersion         = 1.5
+        
+        PDM_disp_accel_factor       = 1.055
+        PDM_disp_base               = 0.85
+        PDM_disp_crouch             = 1.0
+        PDM_disp_crouch_no_acc      = 1.0
+        PDM_disp_vel_factor         = 1.05
+        
+        cam_relax_speed_ai          = 120.75
+        holder_fov_modifier         = 1.0
+        holder_range_modifier       = 1.0
+        min_radius                  = 0
+        max_radius                  = 500
+        hit_probability_gd_novice   = 1.00
+        hit_probability_gd_stalker  = 1.00
+        hit_probability_gd_veteran  = 1.00
+        hit_probability_gd_master   = 1.00
+        hud_fov                                  = 0.65
+        kill_msg_x                  = 194
+        kill_msg_y                  = 123
+        kill_msg_width              = 46
+        kill_msg_height             = 27
+		weapon_lower_speed			= 0.2
+		
+snd_reload				                                          = weapons\tt33\tt_reload
+snd_reload_empty                                                  = weapons\tt33\tt_reload_full
+snd_reload_misfire                                                = weapons\tt33\grach_revival
+snd_draw                                                          = weapons\tt33\p99_draw
+snd_holster                                                       = weapons\tt33\hide
+		
+
+[wpn_tt33_hud]:hud_base
+        item_visual                 = anomaly_weapons\wpn_tt33\wpn_tt33_hud.ogf
+        attach_place_idx            = 0
+        zoom_hide_crosshair         = true
+        
+item_position               = 0.002463, -0.013232, -0.005539
+item_orientation			= 1.324207,2.899481,-1.170716
+		
+hands_orientation                = -1, -2.5, -7
+hands_orientation_16x9           = -1, -2.5, -7
+hands_position                   = -0.020981, -0.066627, -0.105236
+hands_position_16x9              = -0.020981, -0.066627, -0.105236
+
+        aim_hud_offset_pos               = 0.022748, 0.023301, -0.028665
+        aim_hud_offset_pos_16x9          = 0.022748, 0.023301, -0.028665
+        aim_hud_offset_rot               = -0.017213, 0.009386, -0.11955
+        aim_hud_offset_rot_16x9          = -0.017213, 0.009386, -0.11955
+
+lowered_hud_offset_pos           = 0.046401, 0.027462, 0.046365
+lowered_hud_offset_pos_16x9      = 0.046401, 0.027462, 0.046365
+
+lowered_hud_offset_rot           = 0.212509, -0.152878, -0.095673
+lowered_hud_offset_rot_16x9      = 0.212509, -0.152878, -0.095673
+
+gl_hud_offset_pos           = 0, 0, 0
+gl_hud_offset_rot           = 0, 0, 0
+        
+lean_hud_offset_pos         = 0, 0, 0
+lean_hud_offset_rot         = 0, 0, 0
+        
+        anm_hide                    = t_hide, idle
+        anm_hide_empty              = t_hide, idle_empty
+		anm_hide_jammed             = t_hide, idle_jammed
+        anm_idle                    = t_idle, idle
+		anm_idle_jammed             = t_idle, idle_jammed
+        anm_idle_aim                = t_aim, idle
+		anm_idle_aim_jammed         = t_aim, idle_jammed
+        anm_idle_aim_empty          = t_aim, idle_empty
+        anm_idle_aim_moving         = t_walk, idle, 0.75
+		anm_idle_aim_moving_jammed  = t_walk, idle_jammed, 0.75
+        anm_idle_aim_moving_crouch  = t_walk, idle,  0.7
+		anm_idle_aim_moving_crouch_jammed = t_walk, idle_jammed,  0.7
+        anm_idle_aim_moving_crouch_empty = t_walk, idle_empty , 0.7
+        anm_idle_aim_moving_empty   = t_walk, idle_empty, 0.75
+		anm_idle_aim_moving_jammed  = t_walk, idle_jammed, 0.75
+        anm_idle_empty              = t_idle, idle_empty
+        anm_idle_moving             = t_walk, idle
+		anm_idle_moving_jammed      = t_walk, idle_jammed
+        anm_idle_moving_crouch      = t_walk, idle, 0.7
+		anm_idle_moving_crouch_jammed = t_walk, idle_jammed, 0.7
+        anm_idle_moving_crouch_empty = t_walk, idle_empty, 0.7
+        anm_idle_moving_empty       = t_walk, idle_empty
+        anm_idle_sprint             = t_sprint, idle
+		anm_idle_sprint_jammed      = t_sprint, idle_jammed
+        anm_idle_sprint_empty       = t_sprint, idle_empty
+        anm_reload                  = t_reload, tt_reload
+        anm_reload_empty            = t_reload_empty, tt_reload_full
+        anm_shots                   = t_shoot, tt_shoot
+		anm_shot_l                  = t_shoot, tt_shoot_empty
+        anm_show                    = t_draw, idle
+		anm_show_jammed             = t_draw, idle_jammed
+        anm_show_empty              = t_draw, idle_empty
+		anm_reload_misfire          = t_misfire, tt_revival
+		
+anm_shots_aim                            = t_aim_shoot, tt_shoot
+anm_shots_aim_l                          = t_aim_shoot, tt_shoot_empty
+anm_idle_aim_start                       = t_aim_start, idle
+anm_idle_aim_end                         = t_aim_end, idle
+anm_idle_aim_start_empty                 = t_aim_start, idle_empty
+anm_idle_aim_end_empty                   = t_aim_end, idle_empty
+
+anm_idle_aim_start_jammed              = t_aim_start, idle_jammed
+anm_idle_aim_end_jammed                = t_aim_end, idle_jammed
+
+
+;--- Переходы спринта---
+
+        anm_sprint_start             = t_sprint_start, idle
+        anm_sprint_end               = t_sprint_end, idle
+		anm_sprint_start_empty       = t_sprint_start, idle_empty
+        anm_sprint_end_empty         = t_sprint_end, idle_empty
+		anm_sprint_start_jammed      = t_sprint_start, idle_jammed   
+		anm_sprint_end_jammed        = t_sprint_end, idle_jammed
+		
+
+;--- Паттерны спринта---
+
+        ts_pattern_sprint_start      = .+, anm_idle_sprint, anm_sprint_start, 1
+        ts_pattern_sprint_end        = anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+        ts_strict_sprint_end_move    = anm_sprint_start, anm_idle_moving, anm_sprint_end  
+        
+        shell_bone                  = wpn_body
+        shell_point                 = 200, 200, 200
+        
+        fire_bone                   = wpn_body
+        fire_point                  = 0, 0.06, 0.3
+ 
+;------------------------------------------------------------------------------------------------
+[wpn_tt33_modern]:wpn_tt33
+        inv_grid_x                  = 61
+        inv_name                    = st_wpn_tt33_modern
+        inv_name_short              = st_wpn_tt33_modern
+        
+        cost                        = 12350
+        
+        hud                         = wpn_tt33_sk1_hud
+        visual                      = dynamics\weapons\wpn_tt33\wpn_tt33_sk1.ogf
+        
+        rpm                         = 240
+        
+        fire_dispersion_base        = 0.53
+        
+        misfire_start_condition     = 0.7 ;  0.68
+        misfire_start_prob          = 0.006
+        misfire_end_condition       = 0.09
+        misfire_end_prob            = 0.09
+        
+        condition_queue_shot_dec    = 0.0016
+        condition_shot_dec          = 0.0016
+ 
+
+[wpn_tt33_sk1_hud]:wpn_tt33_hud
+        item_visual                 = anomaly_weapons\wpn_tt33\wpn_tt33_sk1_hud.ogf
+ 
