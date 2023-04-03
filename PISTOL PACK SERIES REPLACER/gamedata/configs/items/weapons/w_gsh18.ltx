@@ -168,18 +168,18 @@ snd_bore                                                          = weapons\gsh\
         attach_place_idx            = 0
         zoom_hide_crosshair         = true
         
-item_position               = -0.001169, -0.009528, -0.005539
-item_orientation			= 1.324207,2.899481,-1.170716
+item_position                    = -0.002182, -0.006959, -0.008533
+item_orientation			     = 0, 0, 0
 		
-hands_orientation                = -1, -2.5, -7
-hands_orientation_16x9           = -1, -2.5, -7
-hands_position                   = -0.020981, -0.066627, -0.105236
-hands_position_16x9              = -0.020981, -0.066627, -0.105236
+        hands_orientation                = 1.47, -0.71333, -5.543992
+        hands_orientation_16x9           = 1.47, -0.71333, -5.543992
+        hands_position                   = -0.019436, -0.061725, -0.061497
+        hands_position_16x9              = -0.019436, -0.061725, -0.061497
 
-        aim_hud_offset_pos               = 0.027176, 0.018001, -0.019359
-        aim_hud_offset_pos_16x9          = 0.027176, 0.018001, -0.019359
-        aim_hud_offset_rot               = 0.004973, 0.011104, -0.142582
-        aim_hud_offset_rot_16x9          = 0.004973, 0.011104, -0.142582
+        aim_hud_offset_pos               = 0.029011, -4e-05, -0.039685
+        aim_hud_offset_pos_16x9          = 0.029011, -4e-05, -0.039685
+        aim_hud_offset_rot               = -0.01102, 0.026451, -0.083281
+        aim_hud_offset_rot_16x9          = -0.01102, 0.026451, -0.083281
 
 lowered_hud_offset_pos           = 0.046401, 0.027462, 0.046365
 lowered_hud_offset_pos_16x9      = 0.046401, 0.027462, 0.046365
@@ -228,18 +228,18 @@ anm_idle_aim_end                         = sh_aim_end, idle
 anm_idle_aim_start_empty                 = sh_aim_start, idle_empty
 anm_idle_aim_end_empty                   = sh_aim_end, idle_empty
 
-anm_bore_jammed                        = sh_bore, gsh18_bore_jammed
-anm_hide_jammed                        = sh_hide, idle_jammed         
-anm_idle_jammed                        = sh_idle, idle_jammed
-anm_idle_aim_jammed                    = sh_aim, idle_jammed
-anm_idle_aim_moving_jammed             = sh_walk, idle_jammed, 0.75
-anm_idle_aim_moving_crouch_jammed      = sh_walk, idle_jammed,  0.7
-anm_idle_moving_jammed                 = sh_walk, idle_jammed
-anm_idle_moving_crouch_jammed          = sh_walk, idle_jammed, 0.7
-anm_idle_sprint_jammed                 = sh_sprint, idle_jammed
-anm_show_jammed                        = sh_draw, idle_jammed
-anm_idle_aim_start_jammed              = sh_aim_start, idle_jammed
-anm_idle_aim_end_jammed                = sh_aim_end, idle_jammed
+anm_bore_jammed                        = sh_bore, gsh18_bore
+anm_hide_jammed                        = sh_hide, idle         
+anm_idle_jammed                        = sh_idle, idle
+anm_idle_aim_jammed                    = sh_aim, idle
+anm_idle_aim_moving_jammed             = sh_walk, idle, 0.75
+anm_idle_aim_moving_crouch_jammed      = sh_walk, idle,  0.7
+anm_idle_moving_jammed                 = sh_walk, idle
+anm_idle_moving_crouch_jammed          = sh_walk, idle, 0.7
+anm_idle_sprint_jammed                 = sh_sprint, idle
+anm_show_jammed                        = sh_draw, idle
+anm_idle_aim_start_jammed              = sh_aim_start, idle
+anm_idle_aim_end_jammed                = sh_aim_end, idle
 
 
 ;--- Переходы спринта---
@@ -248,8 +248,8 @@ anm_idle_aim_end_jammed                = sh_aim_end, idle_jammed
         anm_sprint_end               = sh_sprint_end, idle
 		anm_sprint_start_empty       = sh_sprint_start, idle_empty
         anm_sprint_end_empty         = sh_sprint_end, idle_empty
-		anm_sprint_start_jammed      = sh_sprint_start, idle_jammed   
-		anm_sprint_end_jammed        = sh_sprint_end, idle_jammed
+		anm_sprint_start_jammed      = sh_sprint_start, idle   
+		anm_sprint_end_jammed        = sh_sprint_end, idle
 		
 
 ;--- Паттерны спринта---
@@ -293,3 +293,5 @@ anm_idle_aim_end_jammed                = sh_aim_end, idle_jammed
 [wpn_gsh18_sk1_hud]:wpn_gsh18_hud
         item_visual                 = anomaly_weapons\wpn_gsh18\wpn_gsh18_sk1_hud.ogf
  
+        aim_hud_offset_rot               = -0.010168, 0.025493, -0.083281
+        aim_hud_offset_rot_16x9          = -0.010168, 0.025493, -0.083281
