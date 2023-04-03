@@ -1,0 +1,19 @@
+<string_table>
+	<string id="st_wpn_guns_groza">
+		<text>OC-14-4A</text>
+	</string>
+	<string id="st_wpn_groza_guns_descr">
+		<text>Automatic grenade launcher system, 70% unified with automatic machines of the AKS-74U type (the main differences are the 9x39 mm caliber, the bull-pap layout scheme and wider opportunities for modernization). Designed for arming rapid response units. It is highly appreciated by the military and stalkers for the ability to reliably hit an enemy protected by a bulletproof vest or located in a shelter. It can be assembled in 4 different configurations, depending on the combat mission.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] scope PO4õ34\n
+		%c[d_purple] • %c[ui_gray_2] GP-25 under-barrel grenade launcher\n \n</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble">
+		<text>OC-14-4A «Dolg»</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble_descr">
+		<text>Modified automatic grenade launcher complex OC-14 by local artisans from the "Duty" for one of their former fighters named Danya-Master. The machine is assembled for all cases of the zone, the caliber has been changed to a more common one - 5.45x39, there is also an enlarged magazine for 60 rounds and laser. This machine gun is a long-standing dream of every veteran of the "DUTY" group, but the former owner of the machine gun said that only the most worthy member of the group would have it in the end, and instructed Petrenko to find a new owner for the machine gun.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] scope PO4õ34, Night Sight PN-23, ELCAN SpecterDR, Acog, Barsca AC10632, Cobra 8-18, Aimpoint PRO, March Tactical 3-24x42 FFP, OKP-7, AimpointMicro, Aimpoint, C-More, Aimpoint CompM4s, Docter, Deltapoint Pro, Eotech, Eotech 553, Kemper, Meprolight, Rakurs, RMR\n</text>
+	</string>
+</string_table>
