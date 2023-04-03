@@ -1,0 +1,19 @@
+; section name can be anything as long as it is unique
+[anim_p90tac]
+loadout_sec = monolith_veteran_primary, monolith_master_primary
+; this is the section of weapons in wep_importer we want to add
+weapons_sec = p90tac
+; !!!! This will override vanilla loadouts in npc_loadouts.ltx. Use if you want to completely redefine what an NPC class can use. 
+; If ANY of these sections passes this as true, it will apply for this loadout section. 
+ignore_vanilla = false
+
+[anim_p90tac_killer]:anim_p90tac
+loadout_sec = killer_veteran_primary, killer_master_primary
+;-----------------------------------------------------------------------
+
+[anim_p90tac_isg]:anim_p90tac_killer
+loadout_sec = isg_master_primary, isg_veteran_primary
+--
+[anim_p90tac_freedom]:anim_p90tac_isg
+loadout_sec = freedom_veteran_primary, freedom_master_primary
+
