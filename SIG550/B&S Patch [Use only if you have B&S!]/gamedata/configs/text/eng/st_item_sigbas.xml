@@ -1,0 +1,61 @@
+<string_table>
+	<string id="st_wpn_sig550t">
+		<text>SIG SG550</text>
+	</string>
+	<string id="st_wpn_sig550_camot">
+		<text>SIG SG550 (Modified)</text>
+	</string>
+	<string id="st_wpn_sig550_customt">
+		<text>SIG SG550 (custom)</text>
+	</string>
+	<string id="st_wpn_sig550t_descr">
+		<text>Renowned for its high production quality and good performance, the SG 550 is often referred to as the finest 5.56 mm rifle ever made. It has a side-folding skeletonised buttstock and a lightweight aluminium bipod that folds into grooves in the lower handguard.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] Х %c[ui_gray_2] ELCAN SpecterDR, Acog, Barsca AC10632,  обра Ё ѕ-8-18, Aimpoint PRO, March Tactical 3-24x42 FFP, OKP-7, C-More, Aimpoint CompM4s, Eotech, Kemper scopes\n
+		%c[d_purple] Х %c[ui_gray_2] M203 grenade launcher\n \n</text>
+	</string>
+	<string id="st_wpn_sig550_rusty">
+		<text>SIG SG550 (rusty)</text>
+	</string>
+	<string id="st_wpn_sig550_rusty_descr">
+		<text>Renowned for its high production quality and good performance, the SG 550 is often referred to as the finest 5.56 mm rifle ever made. It has a side-folding skeletonised buttstock and a lightweight aluminium bipod that folds into grooves in the lower handguard. This model is covered in rust, resulting in lower combat effectiveness.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n%c[d_red] Х %c[d_red] mounting suppressor is not possible\n
+		%c[d_purple] Х %c[ui_gray_2] ELCAN SpecterDR, Acog, Barsca AC10632,  обра Ё ѕ-8-18, Aimpoint PRO, March Tactical 3-24x42 FFP, OKP-7, C-More, Aimpoint CompM4s, Eotech, Kemper scopes\n
+		%c[d_purple] Х %c[ui_gray_2] M203 grenade launcher\n \n</text>
+	</string>
+	<string id="st_wpn_sig550_sniper">
+		<text>SIG SG550-1 Sniper</text>
+	</string>
+	<string id="st_wpn_sig550_sniper_descr">
+		<text>A marksman variant of a popular Swiss-made assault rifle, the SG 550-S constitutes a perfect middle ground between sniper and assault rifles, retaining the strong points of both types of weaponry. On the other hand, it suffers from certain drawbacks such as being somewhat lacking in stopping power and accuracy for a sniper rifle and lack of automatic fire. Still, it remains one of the best top-tier weapon systems available within the Exclusion Zone.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] Х %c[ui_gray_2] Kahles ZF95 scope (integrated)\n \n</text>
+	</string>
+	<string id="st_wpn_sig550_strelokt">
+		<text>SIG SG550 Arrow</text>
+	</string>
+	<string id="st_wpn_sig550_strelokt_descr">
+		<text>A Swiss made SIG SG-550 assault rifle. Although it isn't new, it is clear that the previous owner took good care of it: the weapon has been taken apart and put back together with every component fine-tuned for optimum performance, increasing stopping power. The letter "S" has been carved into the stock, along with 16 small notches.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] Х %c[ui_gray_2] ELCAN SpecterDR, Acog, Barsca AC10632,  обра Ё ѕ-8-18, Aimpoint PRO, March Tactical 3-24x42 FFP, OKP-7, C-More, Aimpoint CompM4s, Eotech, Kemper\n</text>
+	</string>
+	<string id="st_wpn_sig550_worn">
+		<text>SIG SG550 (worn)</text>
+	</string>
+	
+	<string id="st_wpn_sig552t">
+		<text>SIG SG552 Commando</text>
+	</string>
+	<string id="st_wpn_sig552t_descr">
+		<text>The SG 552 Commando is designed for urban combat, making it the most compact member of SIG's renowned SG 550 family, which enhances its CQC capabilities.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] Х %c[ui_gray_2] ELCAN SpecterDR, Acog, Barsca AC10632,  обра Ё ѕ-8-18, Aimpoint PRO, March Tactical 3-24x42 FFP, OKP-7, C-More, Aimpoint CompM4s, Eotech, Kemper scopes\n \n</text>
+	</string>
+	<string id="st_wpn_sig552_worn">
+		<text>SIG SG552 Commando (worn)</text>
+	</string>
+</string_table>
