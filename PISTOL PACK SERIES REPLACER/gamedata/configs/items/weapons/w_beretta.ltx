@@ -334,61 +334,50 @@ item_visual                              = anomaly_weapons\wpn_beretta92fs\wpn_b
         aim_hud_offset_rot_16x9          = -0.016069, 0.026023, -0.086202
 ;------------------------------------------------------------------------------------------------
 [wpn_beretta_modern]:wpn_beretta
-silencer_status                          = 0
-ammo_elapsed                             = 20
-ammo_mag_size                            = 20
-hud                                      = wpn_beretta_stars_hud
-scope_status                             = 0
-scope_zoom_factor                        = 0 
-scopes 					                 = d0cter, rmr, deltapoint
-parent_section                           = wpn_beretta_modern
-inv_name                                 = st_wpn_beretta_stars
-inv_name_short                           = st_wpn_beretta_stars
-description                              = st_wpn_beretta_stars_descr
-rpm                                      = 400
-[wpn_beretta_stars_hud]:wpn_beretta_hud
-item_visual                              = anomaly_weapons\wpn_beretta_stars\wpn_beretta92start_hud.ogf
-        aim_hud_offset_pos               = 0.025572, -0.002731, -0.028665
-        aim_hud_offset_pos_16x9          = 0.025572, -0.002731, -0.028665
-        aim_hud_offset_rot               = 0.000556, 0.028848, -0.065006
-        aim_hud_offset_rot_16x9          = 0.000556, 0.028848, -0.065006
---
-[wpn_beretta_modern_d0cter]:wpn_beretta_modern
-hud				= wpn_beretta_stars_d0cter_hud
-1icon_layer			    = d0cter
-1icon_layer_x			= 25
-1icon_layer_y			= -26
 
-[wpn_beretta_stars_d0cter_hud]:wpn_beretta_stars_hud
-item_visual                	= anomaly_weapons\wpn_beretta_stars\wpn_beretta92start_docter_hud.ogf
-        aim_hud_offset_pos               = 0.026324, 0.012491, -0.064441
-        aim_hud_offset_pos_16x9          = 0.026324, 0.012491, -0.064441
-        aim_hud_offset_rot               = 0.029416, 0.016591, -0.131423
-        aim_hud_offset_rot_16x9          = 0.029416, 0.016591, -0.131423
-		
---
-[wpn_beretta_modern_rmr]:wpn_beretta_modern
-hud				        = wpn_beretta_stars_rmr_hud
-1icon_layer			    = rmr
-1icon_layer_x			= 23
-1icon_layer_y			= -26
+cost                                     = 7120
 
-[wpn_beretta_stars_rmr_hud]:wpn_beretta_stars_hud
-item_visual                	= anomaly_weapons\wpn_beretta_stars\wpn_beretta92start_rmr_hud.ogf
-        aim_hud_offset_pos               = 0.025628, 0.013904, -0.059957
-        aim_hud_offset_pos_16x9          = 0.025628, 0.013904, -0.059957
-        aim_hud_offset_rot               = 0.041721, 0.018401, -0.11955
-        aim_hud_offset_rot_16x9          = 0.041721, 0.018401, -0.11955
---		
-[wpn_beretta_modern_deltapoint]:wpn_beretta_modern
-hud				= wpn_beretta_stars_deltapoint_hud
-1icon_layer			    = deltapoint
-1icon_layer_x			= 25
-1icon_layer_y			= -26
+icons_texture = ui\ui_icon_ppp
 
-[wpn_beretta_stars_deltapoint_hud]:wpn_beretta_stars_hud
-item_visual                	= anomaly_weapons\wpn_beretta_stars\wpn_beretta92start_deltapoint_hud.ogf
-        aim_hud_offset_pos               = 0.026001, 0.011411, -0.076741
-        aim_hud_offset_pos_16x9          = 0.026001, 0.011411, -0.076741
-        aim_hud_offset_rot               = 0.031055, 0.016968, -0.11955
-        aim_hud_offset_rot_16x9          = 0.031055, 0.016968, -0.11955
+inv_grid_width     = 2
+inv_grid_height    = 1
+inv_grid_x         = 4
+inv_grid_y         = 0
+
+upgr_icon_path     = ui\ui_icon_ppp
+
+upgr_icon_x        = 300
+upgr_icon_y        = 400
+upgr_icon_width    = 150
+upgr_icon_height   = 100
+
+inv_name                                 = st_wpn_beretta
+inv_name_short                           = st_wpn_beretta
+description                              = st_wpn_beretta_descr
+
+upgrades                                 = up_gr_firstab_beretta, up_gr_seconab_beretta, up_gr_thirdab_beretta, up_gr_fourtab_beretta
+silencer_status                          = 2
+
+
+hud                                      = wpn_beretta_sk2_hud
+visual                                   = dynamics\weapons\wpn_beretta92fs\wpn_beretta92fs_sk2.ogf
+
+rpm                                      = 330
+
+fire_dispersion_base                     = 0.44
+
+misfire_start_condition                  = 0.7 ;  0.8
+misfire_start_prob                       = 0.007
+misfire_end_condition                    = 0.1
+misfire_end_prob                         = 0.1
+
+condition_queue_shot_dec                 = 0.0014
+condition_shot_dec                       = 0.0014
+
+
+[wpn_beretta_sk2_hud]:wpn_beretta_hud
+item_visual                              = anomaly_weapons\wpn_beretta92fs\wpn_beretta92fs_sk2_hud.ogf
+        aim_hud_offset_pos               = 0.026913, 0.001114, -0.056683
+        aim_hud_offset_pos_16x9          = 0.026913, 0.001114, -0.056683
+        aim_hud_offset_rot               = -0.0074, 0.026032, -0.086202
+        aim_hud_offset_rot_16x9          = -0.0074, 0.026032, -0.086202
