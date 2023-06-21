@@ -1,0 +1,131 @@
+;------------------------------------------------------------------------------------------------
+[grenade_gd-05]:identity_immunities,weapon_probability,default_weapon_params,grenade_f1_sounds
+        GroupControlSection         = spawn_group
+        discovery_dependency        =
+        $prefetch                   = 128
+        $spawn                      = "weapons\grenades\gd-05"
+        cform                       = skeleton
+        
+        class                       = G_F1_S
+        slot                        = 3
+        animation_slot              = 7
+        ef_weapon_type              = 4
+        single_handed               = 1
+        
+        default_to_ruck             = false
+        sprint_allowed              = true
+        
+        inv_grid_height             = 1
+        inv_grid_width              = 1
+        inv_grid_x                  = 7
+        inv_grid_y                  = 5
+        inv_name                    = st_grenade_thermite
+        inv_name_short              = st_grenade_thermite
+        description                 = st_grenade_thermite_descr
+        highlight_equipped          = true
+        
+        kind                        = w_explosive
+        inv_weight                  = 0.198
+        cost                        = 1789
+        
+        hud                         = grenade_gd-05_hud
+        visual                      = dynamics\weapons\wpn_grenades\wpn_gd5.ogf
+        
+        attach_bone_name            =
+        attach_position_offset      = -0.053, -0.089, 0.0
+        attach_angle_offset         = 0, 0, 0
+        bone_name                   = bip01_r_hand
+        position_offset             = 0.0, 0.0, 0.0
+        angle_offset                = 1.570790, 1.570790, 3.92699
+        
+        third_person_throw_point_offset = -0.198, 1.8, -0.833
+        throw_dir                   = 0, 0, 0
+        throw_point                 = 0.2, 0.3, 0.1
+        up_throw_factor             = 0
+        
+        force_min                   = 15
+        force_const                 = 25
+        force_max                   = 35
+        force_grow_speed            = 20
+        destroy_time                = 2500
+        grenade_remove_time         = 60000
+        detonation_threshold_hit    = 200
+        
+        light_color                 = 1.9, 1.4, 0.5
+        light_range                 = 14.0
+        light_time                  = 0.85
+        
+        wallmark_section            = explosion_marks
+        wm_size                     = 0.02
+        
+        hit_type_blast              = explosion
+        hit_type_frag               = fire_wound
+        
+        blast                       = 4
+        blast_r                     = 9
+        blast_impulse               = 160
+        blast_impulse_factor        = 1
+        
+        frag_hit                    = 0.24
+        frag_hit_impulse            = 32
+        frags                       = 117
+        frags_r                     = 36.0
+        fragment_speed              = 150
+        explode_duration            = 4.0
+        explode_particles           = explosions\explosion_barrel
+        
+        zoom_dof                    = 0.5, 1.0, 180
+        reload_dof                  = 0.0, 0.5, 5, 1.7
+        control_inertion_factor     = 1
+        
+        snd_explode                 = weapons\explo\thermite_explosion
+        snd_on_take                 = grenade
+		
+		snd_throw                   = gran\grenade_throw
+		snd_throw_begin             = gran\grenade_throw_start
+        
+        kill_msg_x                  = 240
+        kill_msg_y                  = 123
+        kill_msg_width              = 14
+        kill_msg_height             = 23
+ 
+
+[grenade_gd-05_hud]:hud_base
+        item_visual                 = anomaly_weapons\wpn_grenades\wpn_gd5_hud.ogf
+        attach_place_idx            = 0
+        
+        item_orientation                 = 18.5, 1.5, 0
+        item_position                    = -0.002814, -0.003891, 0.004405
+        
+        hands_orientation                = -0.5, 1, -2
+        hands_orientation_16x9           = -0.5, 1, -2
+        hands_position                   = -0.016204, -0.074241, -0.098116
+        hands_position_16x9              = -0.016204, -0.074241, -0.098116
+        
+        aim_hud_offset_pos          = 0, 0, 0
+        aim_hud_offset_rot          = 0, 0, 0
+        
+        gl_hud_offset_pos           = 0, 0, 0
+        gl_hud_offset_rot           = 0, 0, 0
+        
+        lean_hud_offset_pos         = 0, 0, 0
+        lean_hud_offset_rot         = 0, 0, 0
+        		
+        anm_hide                    = he_hide, rdgm_hide
+        anm_idle                    = he_idle, idle
+        anm_idle_moving             = he_walk, rdgm_walk
+        anm_idle_sprint             = he_sprint, rdgm_sprint
+        anm_show                    = he_draw, rdgm_draw
+        anm_throw                   = he_throw_end, rdgm_throw_quick
+        anm_throw_begin             = he_throw_start, rdgm_throw_start
+        anm_throw_idle              = he_throw_idle, rdgm_throw_idle
+		
+        
+        fire_bone                   = wpn_body
+        fire_point                  = 0, 0, 0
+        
+throw_point				 =  0.4, 0.3, 0.1           ;0.18, 1.636, -0.788     \\0.118 0.737 0.788
+throw_dir				 = 0,0,1
+third_person_throw_point_offset = -0.198,1.8,-0.833 ;-0.05,0.848,0.706
+ 
+		freelook_z_offset_mul		= 0.3
